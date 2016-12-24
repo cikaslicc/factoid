@@ -1,4 +1,4 @@
-export const facts = [
+export const funFacts = [
 	'Banging your head against a wall burns 150 calories an hour.',
 	'In the UK, it is illegal to eat mince pies on Christmas Day!',
 	'Pteronophobia is the fear of being tickled by feathers!',
