@@ -29,13 +29,5 @@
   ],
   "bugs": {
     "url": "https://github.com/cikaslicc/factoid/issues"
-  },
-  "homepage": "https://github.com/cikaslicc/factoid#readme",
-  "readme": "# factoid\nRandom fun facts while you code.\n",
-  "readmeFilename": "README.md",
-  "gitHead": "d118d5b0193f1a85c46377a207b9309d47db5d7c",
-  "_id": "factoid@1.0.0",
-  "_shasum": "5fd87547edd441c9e50d49c0cdf5c19d2f211afa",
-  "_from": "../../../../usr/local/lib/node_modules/factoid",
-  "_resolved": "file:../../../../usr/local/lib/node_modules/factoid"
+  }
 }
