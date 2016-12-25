@@ -1,4 +1,4 @@
-export const funFacts = [
+var triviaFacts = [
 	'Banging your head against a wall burns 150 calories an hour.',
 	'In the UK, it is illegal to eat mince pies on Christmas Day!',
 	'Pteronophobia is the fear of being tickled by feathers!',
@@ -17,6 +17,18 @@ export const funFacts = [
 	'If Pinokio says “My Noes Will Grow Now”, it would cause a paradox. Details here.',
 	'Polar bears can eat as many as 86 penguins in a single sitting. (If they lived in the same place)',
 	'King Henry VIII slept with a gigantic axe beside him.',
-	'Bikinis and tampons invented by men.',
-	'An eagle can kill a young deer and fly away with it.'
+	'Bikinis and tampons were invented by men.',
+	'An eagle can kill a young deer and fly away with it.',
+	'When a male penguin falls in love with female penguin, he searches the entire beach to find the perfect pebble to present to her.',
+	'New Zealand will deny people residency visa’s if they too high of a BMI and there are cases where people have been rejected because of their weight.',
+	'Whenever a pregnant women suffers from organ damage like heart attack, the fetus sends stem cells to the organ helping it to repair.',
+	'It is illegal to climb trees in Oshawa, a town in Ontario, Canada.',
+	'Brown eyes are blue underneath, and you can actually get a surgery to turn brown eyes blue.',
+	'When you blush, the lining of your stomach also turns red.',
+	'A bolt of lightning is six times hotter than the sun.',
+	'When a person cries and the first drop of tears come from the right eye, its happiness. if it from left eye, it’s pain.',
+	'Only 2% of Earth population naturally has green eyes.',
+	'Having bridesmaids in a wedding wasn’t originally for moral support. They were intended to confuse evil spirits or those who wished to harm the bride.'
 ];
+
+module.exports = triviaFacts;

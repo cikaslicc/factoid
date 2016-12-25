@@ -1,16 +1,16 @@
-// var funFacts = require('./facts');
+var facts = require('./facts');
 
-/**
- * Pull in random facts and run on desired task
- */
-
-// module.exports = {
-//   funFacts: function(funFacts) {
-//     var randomFact = facts[Math.floor(Math.random() * facts.length)];
-//     console.log(randomFact);
-//   }
-// };
-
-module.exports = function() {
-  console.log('testing this shit');
-}
+module.exports = {
+	randomizeFact: function() {
+		var randomFact = facts[Math.floor(Math.random() * facts.length)];
+		return randomFact;
+	},
+  	showRandomFact: function() {
+    	console.log(
+    		'\n' +
+    		'* * * * * * * * * * \n' +
+    		'Fun fact:',this.randomizeFact() + '\n' +
+    		'* * * * * * * * * * \n'
+    	);
+	}
+};
